@@ -1,0 +1,285 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Mitr', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.container {
+    width: 1286px;
+    margin: auto;
+}
+
+/*main_header*/
+
+.main_header {
+    background-image: url("img/background_header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_header .main_nav {
+
+    background-color: #fff;
+}
+
+.main_header .main_nav .nav {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+}
+
+
+
+.main_header .main_nav .logo {
+    margin-right: 170px;
+}
+
+.main_header .main_nav .nav .menu {
+    display: flex;
+    list-style: none;
+}
+
+.main_header .main_nav .nav .menu .menu_wrap .menu_link {
+    text-decoration: none;
+    margin-left: 70px;
+    font-family: Mitr, sans-serif;
+    color: #120203;
+    font-size: 18px;
+}
+
+/*header*/
+
+.header {
+    padding-top: 220px;
+    padding-bottom: 360px;
+    text-align: center;
+}
+
+.header .sub_title {
+    margin-top: 50px;
+    font-family: Mitr, sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*welcome_article*/
+
+.welcome_article {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.welcome_article .title_article {
+    font-size: 40px;
+    color: #f01b16;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.welcome_article .paragraph_article {
+    font-size: 22px;
+    margin: auto;
+    max-width: 1072px;
+    color: #9f9a97;
+    margin-bottom: 50px;
+}
+
+.welcome_article .reservation_button {
+    background-color: #ff7e66;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #fff2ee;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.cooking_article {
+    background-color: #fff2ed;
+    display: flex;
+
+}
+.cooking_article .cooking_wrapper {
+    text-align: center;
+    padding-top: 100px;
+    max-width: 530px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.cooking_article .cooking_wrapper .cooking_title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ff7e66;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.cooking_article .cooking_wrapper .cooking_parafraph {
+    font-size: 18px;
+    color: #9f9a97;
+    margin-top: 30px;
+}
+
+
+
+.our_baking {
+    text-align: center;
+    margin: 150px auto;
+    max-width: 1100px;
+}
+
+.our_baking .title_our_baking {
+    font-size: 40px;
+
+    color: #f01b16;
+}
+
+.our_baking  .paragraph_our_baking {
+    color: #9f9a97;
+    font-size: 22px;
+    margin: 70px;
+}
+
+.our_baking .button_menu {
+    font-size: 16px;
+    color: #fff2ee;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ff7e66;
+    padding: 18px 54px;
+}
+
+
+
+.lemon_cake_article {
+    background-image: url("img/lemon_cake.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+    background-position: center;
+    padding-top: 90px;
+}
+
+.lemon_cake_article .lemon_wrapper {
+    max-width: 560px;
+    margin: auto;
+    text-align: left;
+}
+
+.lemon_cake_article .lemon_wrapper .lemon_paragraph {
+    font-size: 18px;
+    color: #fff;
+    margin: 60px 0;
+}
+
+.lemon_cake_article .lemon_wrapper .price {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.lemon_cake_article  .lemon_wrapper .button_view_all {
+    border: 3px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 30px;
+
+}
+
+
+.gallery .first_article {
+    display: flex;
+}
+
+.gallery .second_article {
+    display: flex;
+}
+.gallery .gallery_photo {
+    height: 440px;
+    width: 25%;
+}
+
+.gallery .gallery_photo.second {
+    width: 50%;
+}
+
+.gallery .gallery_photo.third {
+    width: 50%;
+}
+
+.gallery .second_article .test {
+    width: 25%;
+    background-image: url(img/gallery/fourth_photo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ff7e66;
+
+}
+
+.gallery .second_article .test .sub_title_gallery {
+    background-color: #f01b16;
+    padding: 70px 120px;
+    text-align: center;
+    opacity: 90%;
+}
+
+.gallery .gallery_title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff7e66;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2ed;
+}
+
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .service_article {
+    margin: 60px 100px;
+    text-align: center;
+
+}
+
+.service .service_article .sub_title {
+    font-size: 30px;
+    color: #120203;
+}
+
+
+
