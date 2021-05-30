@@ -291,6 +291,176 @@ footer, header, hgroup, menu, nav, section {
     font-size: 30px;
     color: #120203;
 }
+.our_blog {
+    margin: 160px 0 ;
+}
+
+.our_blog .photos_our_blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our_blog .title_our_blog {
+    color: #f01b16;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.our_blog .paragraph_our_blog {
+    text-align: center;
+    color: #9f9a97;
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+.our_blog .photos_our_blog .background_first {
+    background-image: url(img/how_to_make_first.png);
+
+}
+.our_blog .photos_our_blog .background_second {
+    background-image: url(img/how_to_make_second.png);
+}
+.our_blog .photos_our_blog .background_third {
+    background-image: url(img/how_to_make_third.png);
+}
+.our_blog .photos_our_blog .background_fourth {
+    background-image: url(img/how_to_make_fourth.png);
+}
+.our_blog .photos_our_blog .background_first, .background_second, .background_third, .background_fourth {
+    height: 340px;
+    width: 250px;
+    margin-left: 25px;
+}
+
+
+.our_blog .photos_our_blog  .how_to_make{
+    background-color: white;
+    border-bottom-left-radius: 125px;
+    border-bottom-right-radius: 125px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    flex-wrap: wrap;
+    text-align: center;
+    transition: 2s;
+}
+
+.our_blog .photos_our_blog  .how_to_make:hover {
+    height: 200px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.contact_us {
+    background-image: url(img/background_contact_us.png);
+    padding-top: 160px;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact_us .title_contact_us {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact_us .contact_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contact_us .contact_form .name, .email, .subject {
+    background: transparent;
+    width: 350px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.contact_us .contact_form .name{
+    margin-right: 55px;
+
+}
+.contact_us .contact_form .name::placeholder, .email::placeholder, .subject::placeholder {
+    color: #fff;
+}
+
+.contact_us .contact_form .email {
+    margin-right: 55px;
+}
 
 
 
+.contact_us .contact_form .text {
+    width: 100%;
+    padding-bottom: 230px;
+    background: transparent;
+    margin-bottom: 40px;
+}
+
+.contact_us .contact_form .submit_now {
+    width: 100%;
+    background-color: #ff7d66;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 27px 0;
+}
+
+.contact_us_details {
+    display: flex;
+    background-color: #fff2ed;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact_us_details .article_contact_us {
+    background-color: #fff;
+    text-align: center;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_us_details .article_contact_us .fa-envelope{
+    color: #fff;
+    font-size: 60px;
+    background-image: url(img/contact_us_first.png);
+    padding: 43px 110px;
+}
+
+.contact_us_details .article_contact_us .fa-map-marker-alt{
+    color: #fff;
+    font-size: 60px;
+    background-image: url(img/contact_us_second.png);
+    padding: 43px 110px;
+}
+.contact_us_details .article_contact_us .fa-phone{
+    color: #fff;
+    font-size: 60px;
+    background-image: url(img/contact_us_third.png);
+    padding: 43px 110px;
+}
+
+.contact_us_details .article_contact_us .title_article {
+    font-size: 16px;
+    color: #464646;
+    margin-top: 25px;
+}
+.contact_us_details .article_contact_us .link_article {
+    color: #81868e;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    max-width: 150px;
+}

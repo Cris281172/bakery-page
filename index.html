@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -100,15 +101,52 @@
             </article>
     </section>
     <section class="our_blog">
-        <h3>Our Blog</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <article>
-            <div class="container">
-                <img src="img/how_to_make_first.png" alt="">
-                <img src="img/how_to_make_second.png" alt="">
-                <img src="img/how_to_make_third.png" alt="">
-                <img src="img/how_to_make_fourth.png" alt="">
-            </div>
+        <div class="container">
+            <h3 class="title_our_blog">Our Blog</h3>
+            <p class="paragraph_our_blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <article class="photos_our_blog">
+                        <div class="background_first">
+                            <h3 class="how_to_make">HOW TO MAKE</h3>
+                        </div>
+                        <div class="background_second">
+                            <h3 class="how_to_make">HOW TO MAKE</h3>
+                        </div>
+                        <div class="background_third">
+                            <h3 class="how_to_make">HOW TO MAKE</h3>
+                        </div>
+                        <div class="background_fourth">
+                            <h3 class="how_to_make">HOW TO MAKE</h3>
+                        </div>
+                    </article>
+        </div>
+    </section>
+    <section class="contact_us">
+        <div class="container">
+            <h3 class="title_contact_us">Contact Us</h3>
+            <article class="contact_form">
+                <input type="text" class="name" placeholder="Your name" maxlength="40">
+                <input type="text" class="email" placeholder="Email address" maxlength="40">
+                <input type="text" class="subject" placeholder="Subject" maxlength="40">
+                <input type="text" class="text">
+                <button class="submit_now">SUBMIT NOW</button>
+            </article>
+        </div>
+    </section>
+    <section  class="contact_us_details">
+        <article class="article_contact_us">
+            <i class="fas fa-envelope"></i>
+            <h3 class="title_article">EMAIL</h3>
+            <h4 class="link_article">TOP@BLAH.COM</h4>
+        </article>
+        <article class="article_contact_us">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3 class="title_article">OUR RESTAURANT</h3>
+            <h4 class="link_article">431-NGUTEN KHANG HA NO_VIET NAM</h4>
+        </article>
+        <article class="article_contact_us">
+            <i class="fas fa-phone"></i>
+            <h3 class="title_article">PHONE</h3>
+            <h4 class="link_article">[+84]-797-6809</h4>
         </article>
     </section>
     <script src="script.js"></script>

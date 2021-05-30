@@ -22,7 +22,7 @@ scroll = e => {
         document.querySelector(`.service`).scrollIntoView({ behavior: 'smooth'});
     }
     if(e.target.dataset.menu === `7`){
-        document.querySelector(`.welcome_article`).scrollIntoView({ behavior: 'smooth'});
+        document.querySelector(`.contact_us`).scrollIntoView({ behavior: 'smooth'});
     }
 
 }
