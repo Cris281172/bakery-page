@@ -262,6 +262,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 70px 120px;
     text-align: center;
     opacity: 90%;
+
 }
 
 .gallery .gallery_title {
@@ -299,6 +300,7 @@ footer, header, hgroup, menu, nav, section {
 .our_blog .photos_our_blog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .our_blog .title_our_blog {
