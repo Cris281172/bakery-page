@@ -299,6 +299,7 @@ footer, header, hgroup, menu, nav, section {
 .our_blog .photos_our_blog {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .our_blog .title_our_blog {
