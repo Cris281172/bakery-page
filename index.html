@@ -54,7 +54,7 @@
         <a href="#" class="reservation_button">make a reservation</a>
     </article>
     <article class="cooking_article">
-        <img src="img/background_cooking.png" >
+        <div class="cooking_image"></div>
         <div class="cooking_wrapper">
             <h3 class="cooking_title">make every cooking time a special moment</h3>
             <img src="img/pot_icon.png">
@@ -96,7 +96,7 @@
             </article>
             <article class="second_article">
                 <img src="img/gallery/third_photo.png" class="gallery_photo third">
-                <div class="test"><h4 class="sub_title_gallery">THE<br> CAKE <br>BLAH</h4></div>
+                <div class="wrapper"><h4 class="sub_title_gallery">THE<br> CAKE <br>BLAH</h4></div>
                 <img src="img/gallery/fifth_photo.png" class="gallery_photo">
             </article>
     </section>
@@ -121,34 +121,54 @@
         </div>
     </section>
     <section class="contact_us">
-        <div class="container">
-            <h3 class="title_contact_us">Contact Us</h3>
-            <article class="contact_form">
-                <input type="text" class="name" placeholder="Your name" maxlength="40">
-                <input type="text" class="email" placeholder="Email address" maxlength="40">
-                <input type="text" class="subject" placeholder="Subject" maxlength="40">
-                <input type="text" class="text">
-                <button class="submit_now">SUBMIT NOW</button>
-            </article>
+        <div class="background_color_contact">
+            <div class="container">
+                <h3 class="title_contact_us">Contact Us</h3>
+                <article class="contact_form">
+                    <input type="text" class="name" placeholder="Your name" maxlength="40">
+                    <input type="text" class="email" placeholder="Email address" maxlength="40">
+                    <input type="text" class="subject" placeholder="Subject" maxlength="40">
+                    <input type="text" class="text">
+                    <button class="submit_now">SUBMIT NOW</button>
+                </article>
+            </div>
         </div>
     </section>
     <section  class="contact_us_details">
         <article class="article_contact_us">
             <i class="fas fa-envelope"></i>
             <h3 class="title_article">EMAIL</h3>
-            <h4 class="link_article">TOP@BLAH.COM</h4>
+            <a href="mailto:TOP@BLAH.COM" class="link_article">TOP@BLAH.COM</a>
         </article>
         <article class="article_contact_us">
             <i class="fas fa-map-marker-alt"></i>
             <h3 class="title_article">OUR RESTAURANT</h3>
-            <h4 class="link_article">431-NGUTEN KHANG HA NO_VIET NAM</h4>
+            <a href="https://www.google.com/maps/place/431+Nguyễn+Khang,+Yên+Hoà,+Cầu+Giấy,+Hà+Nội,+Vietnam/@21.0281566,105.7968306,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab4472e6b1b3:0x3c487321d52895a!8m2!3d21.0281516!4d105.7990246" class="link_article" target="_blank">431-NGUTEN KHANG HA NO_VIET NAM</a>
         </article>
         <article class="article_contact_us">
             <i class="fas fa-phone"></i>
             <h3 class="title_article">PHONE</h3>
-            <h4 class="link_article">[+84]-797-6809</h4>
+            <a href="tel:[+84]-797-6809" class="link_article">[+84]-797-6809</a>
         </article>
     </section>
+    <section class="find_us">
+        <div class="background_color_find">
+            <article class="find_us_article">
+                <h3 class="article_title">FIND <div class="logo">TOP</div> ON THE MAP</h3>
+            </article>
+        </div>
+    </section>
+    <footer class="main_footer">
+        <img src="img/top_logo_footer.png">
+        <h4 class="copyright">&copy; Copyright 2021. Created by Krzysztof Juczyński</h4>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-vimeo-v"></i>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

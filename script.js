@@ -1,4 +1,3 @@
-
 const arrow = document.querySelector(`.arrow`);
 const menuElement = document.querySelectorAll(`[data-menu]`);
 
@@ -33,6 +32,8 @@ menuElement.forEach(el => el.addEventListener(`click`,scroll));
 const scrollToUp = e => {
     document.querySelector(`.main_header`).scrollIntoView({ behavior:'smooth'});
 }
+
+
 
 arrow.addEventListener(`click`, scrollToUp);
 
