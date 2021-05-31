@@ -93,7 +93,9 @@ footer, header, hgroup, menu, nav, section {
 
 .welcome_article {
     text-align: center;
+    opacity: 0;
     padding: 150px 0;
+    animation-duration: 2s;
 }
 
 .welcome_article .title_article {
@@ -125,7 +127,8 @@ footer, header, hgroup, menu, nav, section {
 .cooking_article {
     background-color: #fff2ed;
     display: flex;
-
+    opacity: 0;
+    animation-duration: 2s;
 }
 
 .cooking_image {
@@ -162,7 +165,8 @@ footer, header, hgroup, menu, nav, section {
 .our_baking {
     text-align: center;
     padding: 150px 0;
-
+    opacity: 0;
+    animation-duration: 6s;
 }
 
 .our_baking .title_our_baking {
@@ -195,6 +199,8 @@ footer, header, hgroup, menu, nav, section {
     padding-bottom: 150px;
     background-position: center;
     padding-top: 90px;
+    opacity: 0;
+    animation-duration: 2s;
 }
 
 .lemon_cake_article .lemon_wrapper {
@@ -225,6 +231,10 @@ footer, header, hgroup, menu, nav, section {
 
 }
 
+.gallery {
+    opacity: 0;
+    animation-duration: 6s;
+}
 
 .gallery .first_article {
     display: flex;
@@ -281,6 +291,8 @@ footer, header, hgroup, menu, nav, section {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    animation-duration: 2s;
 }
 
 .service .service_article {
@@ -295,6 +307,8 @@ footer, header, hgroup, menu, nav, section {
 }
 .our_blog {
     margin: 160px 0 ;
+    opacity: 0;
+    animation-duration: 2s;
 }
 
 .our_blog .photos_our_blog {
@@ -357,7 +371,8 @@ footer, header, hgroup, menu, nav, section {
 
 .contact_us {
     background-image: url(img/background_contact_us.png);
-
+    opacity: 0;
+    animation-duration: 2s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -433,6 +448,8 @@ footer, header, hgroup, menu, nav, section {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    opacity: 0;
+    animation-duration: 6s;
 }
 .contact_us_details .article_contact_us {
     background-color: #fff;
@@ -480,7 +497,8 @@ footer, header, hgroup, menu, nav, section {
 
 .find_us {
     background-image: url(img/map_img.png);
-
+    opacity: 0;
+    animation-duration: 2s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -516,6 +534,8 @@ footer, header, hgroup, menu, nav, section {
     justify-content: center;
     align-items: center;
     padding: 45px 0;
+    opacity: 0;
+    animation-duration: 2s;
 }
 
 .main_footer .copyright {
@@ -560,3 +580,33 @@ footer, header, hgroup, menu, nav, section {
     margin-right: 5px;
 }
 
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+@keyframes slideOpacity {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
