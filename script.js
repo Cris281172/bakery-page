@@ -81,7 +81,7 @@ const slides = e => {
         document.querySelector(`.find_us`).style.opacity = `1`
     }
 
-    if(document.body.scrollTop > 6800 || document.documentElement.scrollTop > 6800){
+    if(document.body.scrollTop > 6200 || document.documentElement.scrollTop > 6200){
         document.querySelector(`.main_footer`).style.animationName = `slideRight`;
         document.querySelector(`.main_footer`).style.opacity = `1`
     }
