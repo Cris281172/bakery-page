@@ -44,6 +44,7 @@ footer, header, hgroup, menu, nav, section {
     width: 100%;
     background-color: #fff;
     opacity: 0.9;
+    z-index: 3;
 }
 
 .main_header .main_nav .nav {
@@ -93,9 +94,9 @@ footer, header, hgroup, menu, nav, section {
 
 .welcome_article {
     text-align: center;
-    opacity: 0;
     padding: 150px 0;
     animation-duration: 2s;
+    animation-name: slideUp;
 }
 
 .welcome_article .title_article {
@@ -231,6 +232,28 @@ footer, header, hgroup, menu, nav, section {
 
 }
 
+
+
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation-duration: 2s;
+}
+
+.service .service_article {
+    margin: 60px 100px;
+    text-align: center;
+
+}
+
+.service .service_article .sub_title {
+    font-size: 30px;
+    color: #120203;
+}
+
 .gallery {
     opacity: 0;
     animation-duration: 6s;
@@ -272,7 +295,6 @@ footer, header, hgroup, menu, nav, section {
     padding: 70px 120px;
     text-align: center;
     opacity: 90%;
-
 }
 
 .gallery .gallery_title {
@@ -286,25 +308,6 @@ footer, header, hgroup, menu, nav, section {
     background-color: #fff2ed;
 }
 
-
-.service{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    animation-duration: 2s;
-}
-
-.service .service_article {
-    margin: 60px 100px;
-    text-align: center;
-
-}
-
-.service .service_article .sub_title {
-    font-size: 30px;
-    color: #120203;
-}
 .our_blog {
     margin: 160px 0 ;
     opacity: 0;
