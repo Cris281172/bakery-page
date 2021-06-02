@@ -164,7 +164,9 @@ footer, header, hgroup, menu, nav, section {
 
 
 .our_baking {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 150px 0;
     opacity: 0;
     animation-duration: 6s;
@@ -180,6 +182,8 @@ footer, header, hgroup, menu, nav, section {
     color: #9f9a97;
     font-size: 22px;
     margin: 70px;
+    max-width: 1072px;
+    text-align: center;
 }
 
 .our_baking .button_menu {
@@ -406,13 +410,17 @@ footer, header, hgroup, menu, nav, section {
 
 .contact_us .contact_form .name, .email, .subject {
     background: transparent;
-    width: 350px;
+    color: #fff;
     margin-bottom: 35px;
     font-size: 20px;
-    color: #fff;
+    border-style: solid;
+    border: 1px solid #d8dce0;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 30px;
+    width: 100%;
+
+
 }
 .contact_us .contact_form .name{
     margin-right: 55px;
@@ -420,6 +428,12 @@ footer, header, hgroup, menu, nav, section {
 }
 .contact_us .contact_form .name::placeholder, .email::placeholder, .subject::placeholder {
     color: #fff;
+
+}
+
+.contact_us .contact_form .wrapper {
+    display: flex;
+    flex-grow: 1;
 }
 
 .contact_us .contact_form .email {
@@ -433,6 +447,8 @@ footer, header, hgroup, menu, nav, section {
     padding-bottom: 230px;
     background: transparent;
     margin-bottom: 40px;
+    border-style: solid;
+    border: 1px solid #d8dce0;
 }
 
 .contact_us .contact_form .submit_now {
@@ -443,6 +459,7 @@ footer, header, hgroup, menu, nav, section {
     font-size: 20px;
     padding: 27px 0;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .contact_us_details {
