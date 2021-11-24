@@ -11,14 +11,6 @@ const detectElementInViewport = el => {
     return rect.top >= 0 && rect.bottom <= window.innerHeight;
 }
 
-const slides = e => {
-    document.querySelectorAll(`[data-animate]`).forEach(element =>{
-        if(detectElementInViewport(element)){
-            element.style.animationName = element.dataset.animate;
-            element.style.opacity = 1;
-        }
-    })
-}
 
 let timeout;
 
